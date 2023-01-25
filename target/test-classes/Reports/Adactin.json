@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-14T14:57:08.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 53968351300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Tc-03: Verification of Adactin Login",
+        "description": "",
+        "id": "automating-the-functionalities-of-adactin;tc-03:-verification-of-adactin-login",
+        "after": [
+          {
+            "result": {
+              "duration": 896048500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 607706700,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User wants to verify whether the login page appears once the aactin application is launched",
+            "match": {
+              "location": "StepDefinitions.user_wants_to_verify_whether_the_login_page_appears_once_the_aactin_application_is_launched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1738391700,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "User wants to give valid username and password using DataTable with header Two-D, and click on the login button",
+            "match": {
+              "location": "StepDefinitions.user_wants_to_give_valid_username_and_password_using_DataTable_with_header_Two_D_and_click_on_the_login_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "PassWord"
+                ]
+              },
+              {
+                "cells": [
+                  "jocinthn",
+                  "123456"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57578700,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User wants to verify whether the search hotel page appear or not",
+            "match": {
+              "location": "StepDefinitions.user_wants_to_verify_whether_the_search_hotel_page_appear_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Automating the functionalities of Adactin",
+    "description": "",
+    "id": "automating-the-functionalities-of-adactin",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Adactin.feature",
+    "tags": []
+  }
+]

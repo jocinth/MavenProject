@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="57.321393">
+<testcase classname="Automating the functionalities of Adactin" name="Tc-03: Verification of Adactin Login" time="57.321393">
+<system-out><![CDATA[Given User wants to verify whether the login page appears once the aactin application is launched.passed
+When User wants to give valid username and password using DataTable with header Two-D, and click on the login button.passed
+Then User wants to verify whether the search hotel page appear or not.......passed
+]]></system-out>
+</testcase>
+</testsuite>
